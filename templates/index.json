@@ -15,7 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ASDSD.png",
+            "image": "shopify://shop_images/1773583780_IMG_20260310_001041_804.webp",
             "image_position": "center center",
             "text_box_position": "bottom-right",
             "subheading": "",
@@ -161,7 +161,7 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#ffffff",
-        "colors_background": "#189ddd",
+        "colors_background": "#212326",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -288,7 +288,7 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#ffffff",
-        "colors_background": "#189ddd",
+        "colors_background": "#212326",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -364,7 +364,7 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#ffffff",
-        "colors_background": "#189ddd",
+        "colors_background": "#212326",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
