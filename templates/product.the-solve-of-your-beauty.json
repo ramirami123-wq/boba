@@ -54,7 +54,7 @@
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">✨ Cordless & Rechargeable</span> – Style your hair anywhere without needing an outlet.<br><br>\n\n<span style=\"font-weight: bold;\">🔥 Fast, Even Heating</span> –  Advanced ceramic technology smooths hair quickly with less frizz.<br><br>\n\n<span style=\"font-weight: bold;\">🌡️ Adjustable Heat Settings</span> – Suitable for fine, thick, curly, or treated hair.<br><br>\n\n<span style=\"font-weight: bold;\">💫 Smooth, Tangle-Free Results</span> –  Glides gently through hair for a sleek, shiny finish.\n\n</div>"
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">Removes Tough Calluses</span> – Effectively buffs away hard, dry skin for smoother feet.<br><br>\n\n<span style=\"font-weight: bold;\">Fast & Effortless</span> – Achieve soft, salon-like results at home in just minutes.<br><br>\n\n<span style=\"font-weight: bold;\">Hygienic & Reusable</span> – Washable and replaceable roller heads for safe, long-lasting use.\n\n</div>"
           }
         },
         "variant_picker": {
@@ -81,7 +81,7 @@
         "custom_liquid_wbDEGx": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2);\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3);\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n                \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var month = monthNames[date.getMonth()];\n            var weekday = dayNames[date.getDay()];\n            return weekday + \", \" + month + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' – ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
           }
         },
         "related_buttons": {
@@ -174,7 +174,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "FREE DELIVERY FOR ORDERS ABOVE 45$",
+            "text": "FREE DELIVERY",
             "text_size": 20,
             "link": ""
           }
@@ -203,7 +203,7 @@
         "heading_76UTPd": {
           "type": "heading",
           "settings": {
-            "heading": "Markiti Brush vs. Flat Iron",
+            "heading": "Smooth, Healthy Feet",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -211,7 +211,7 @@
         "text_x39RiF": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>✓ Straightens hair in less time<br/><br/>✓ Easy and beginner-friendly<br/><br/>✓ Anti-scald, safe design<br/><br/>✓ Perfect for quick styling anywhere<br/><br/></p>",
+            "text": "<p><br/>Easily remove rough, dry skin and restore softness in just minutes. This roller helps you maintain clean, healthy-looking feet without extra effort.<br/><br/></p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -223,6 +223,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/1773583780_1_26256d7c-b7eb-4c24-a191-95c057dcf173.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -256,7 +257,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "FREE DELIVERY FOR ORDERS ABOVE 45$",
+            "text": "Soft feet, simple care.",
             "text_size": 20,
             "link": ""
           }
@@ -285,7 +286,7 @@
         "heading_eTDxyc": {
           "type": "heading",
           "settings": {
-            "heading": "Markiti Brush Advantage",
+            "heading": "Simple At-Home Care",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -293,7 +294,7 @@
         "text_iNcMJf": {
           "type": "text",
           "settings": {
-            "text": "<p>Faster, safer, and easier than a flat iron — smooth hair anytime, anywhere</p>",
+            "text": "<p>Enjoy salon-like results from the comfort of your home. Designed for convenience, it’s quick to use, easy to clean, and perfect for regular self-care.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -305,6 +306,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/1773583780_images.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -338,16 +340,16 @@
             "header_col_1": "Feature",
             "header_col_2": "US",
             "header_col_3": "OTHERS",
-            "row_1_col_1": "Straightening Hair in Half Time",
+            "row_1_col_1": "Effectively eliminates tough, dry, and rough skin",
             "row_1_col_2": "✅",
             "row_1_col_3": "❌",
-            "row_2_col_1": "Ease of Use",
+            "row_2_col_1": "Leaves your feet soft and refreshed",
             "row_2_col_2": "✅",
             "row_2_col_3": "❌",
-            "row_3_col_1": "Anti-Scald Design",
+            "row_3_col_1": "Quick and effortless for regular care",
             "row_3_col_2": "✅",
             "row_3_col_3": "❌",
-            "row_4_col_1": "Beginner Friendly",
+            "row_4_col_1": "Washable and replaceable roller heads",
             "row_4_col_2": "✅",
             "row_4_col_3": "❌",
             "header_background": "#212326",
@@ -382,7 +384,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "DELIVERY ALL OVER LEBANON",
+            "text": "Step into comfort with effortlessly smooth feet",
             "text_size": 20,
             "link": ""
           }
@@ -442,29 +444,29 @@
         "question_LwBBn4": {
           "type": "question",
           "settings": {
-            "title": "How long does the battery last?",
-            "text": "<p>The built-in 9600mAh battery provides multiple styling sessions on a full charge, depending on the heat setting and hair type.</p>"
+            "title": "How often should I use the roller?",
+            "text": "<p>2–3 times per week is usually enough to maintain smooth feet.</p>"
           }
         },
         "question_mcJhGt": {
           "type": "question",
           "settings": {
-            "title": "How long does it take to heat up?",
-            "text": "<p>The brush heats up quickly in just a few minutes, so you can start styling almost immediately.</p>"
+            "title": "Is it safe for sensitive skin?",
+            "text": "<p>Yes, it is gentle when used properly, but avoid overuse on very sensitive areas.</p>"
           }
         },
         "question_GJeyJf": {
           "type": "question",
           "settings": {
-            "title": "Will it damage my hair?",
-            "text": "<p>The ceramic heating technology distributes heat evenly to help reduce frizz, pulling, and breakage when used correctly.</p>"
+            "title": "Can I wash the roller head?",
+            "text": "<p>Yes, the roller is washable and can be reused multiple times.</p>"
           }
         },
         "question_gCFgAe": {
           "type": "question",
           "settings": {
-            "title": "Can it be used on all hair types?",
-            "text": "<p> Yes! It features multiple heat settings suitable for fine, thick, curly, and color-treated hair.</p>"
+            "title": "How long does one roller last?",
+            "text": "<p>It depends on usage, but each roller is durable for multiple treatments.</p>"
           }
         }
       },
